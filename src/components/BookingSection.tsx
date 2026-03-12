@@ -15,24 +15,24 @@ const BookingSection = () => {
     }
   }, []);
 
-  return (
-    <section id="booking" className="py-24 px-4">
-      <div className="container mx-auto">
-        <div className="text-center mb-16">
-          <p className="font-body text-xs uppercase tracking-[0.3em] text-primary mb-4">Бронирование</p>
-          <h2 className="font-display text-4xl md:text-5xl font-light text-foreground mb-4">
-            Забронировать студию
-          </h2>
-          <p className="font-body text-sm text-muted-foreground max-w-md mx-auto">
-            Выберите удобную дату и время через форму ниже
-          </p>
-        </div>
+  return;
 
-        {/* The widget will render here via the external script */}
-        <div className="max-w-2xl mx-auto" />
-      </div>
-    </section>
-  );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 };
 
 export default BookingSection;
