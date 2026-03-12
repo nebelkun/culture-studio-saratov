@@ -8,8 +8,8 @@ const AboutSection = () => {
           <img
             src={aboutImage}
             alt="Фотограф в студии Культура"
-            className="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-700"
-          />
+            className="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-700" />
+          
         </div>
 
         <div>
@@ -28,15 +28,15 @@ const AboutSection = () => {
               дающие обилие ровного естественного света. Вместимость для проведения мероприятий
               до 200 человек.
             </p>
-            <p>
-              Мы предлагаем почасовую аренду студии для фотосессий, видеосъёмок, творческих
-              проектов и камерных мероприятий. В студии одновременно могут находиться до 15 человек.
+            <p>Мы предлагаем почасовую аренду студии для фотосессий, видеосъёмок, творческих проектов и камерных мероприятий. 
+
+
             </p>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default AboutSection;
