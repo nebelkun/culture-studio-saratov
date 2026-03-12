@@ -23,7 +23,9 @@ const HeroSection = () => {
           Атмосферные локации для творческих съёмок, мероприятий и вдохновения
         </p>
         <a
-          href="#booking"
+          href="https://appevent.ru/w/5038"
+          target="_blank"
+          rel="noopener noreferrer"
           className="font-body text-xs uppercase tracking-[0.3em] border border-primary text-primary px-8 py-3 hover:bg-primary hover:text-primary-foreground transition-all duration-300 animate-fade-in"
           style={{ animationDelay: "0.6s", opacity: 0 }}
         >
