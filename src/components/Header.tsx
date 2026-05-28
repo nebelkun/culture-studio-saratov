@@ -4,9 +4,9 @@ import { Menu, X } from "lucide-react";
 const navLinks = [
   { label: "О студии", href: "#about" },
   { label: "Интерьер", href: "#interior" },
+  { label: "Интерьер", href: "#interior" },
+  { label: "Мероприятия", href: "#events" },
   { label: "Цены", href: "#pricing" },
-  { label: "Бронирование", href: "#booking" },
-  { label: "Контакты", href: "#contacts" },
 ];
 
 const Header = () => {
