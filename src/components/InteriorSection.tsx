@@ -1,7 +1,9 @@
 import location1 from "@/assets/location-1.jpg";
 import location2 from "@/assets/location-2.jpg";
+import location3 from "@/assets/location-3.jpg";
+import location4 from "@/assets/location-4.jpg";
 
-const images = [location1, location2];
+const images = [location1, location2, location3, location4];
 
 const InteriorSection = () => {
   return (
@@ -26,9 +28,10 @@ const InteriorSection = () => {
           ))}
         </div>
 
-        <p className="text-center text-muted-foreground font-body text-xs uppercase tracking-[0.2em] mt-8">
-          Больше фотографий появится скоро
+        <p className="text-center text-muted-foreground font-body text-xs uppercase tracking-[0.2em] mt-8 max-w-2xl mx-auto">
+          МЫ ЧАСТО ВИДОИЗМЕНЯЕМ НАШИ ЛОКАЦИИ, НО КОНЦЕПЦИЯ ВСЕГДА ОСТАЕТСЯ НЕИЗМЕННОЙ
         </p>
+
       </div>
     </section>
   );
