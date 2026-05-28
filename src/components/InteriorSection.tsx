@@ -1,8 +1,7 @@
 import studio1 from "@/assets/studio-1.jpg";
 import studio2 from "@/assets/studio-2.jpg";
-import studio3 from "@/assets/studio-3.jpg";
 
-const images = [studio1, studio2, studio3];
+const images = [studio1, studio2];
 
 const InteriorSection = () => {
   return (
@@ -15,7 +14,7 @@ const InteriorSection = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {images.map((src, index) => (
             <div key={index} className="overflow-hidden group cursor-pointer">
               <img
@@ -27,10 +26,9 @@ const InteriorSection = () => {
           ))}
         </div>
 
-        <p className="text-center text-muted-foreground font-body text-xs uppercase tracking-[0.2em] mt-8 max-w-2xl mx-auto">
-          МЫ ПОСТОЯННО ВИДОИЗМЕНЯЕМ НАШИ ЗОНЫ, НО КОНЦЕПЦИЯ ВСЕГДА ОСТАЕТСЯ ПРЕЖНЕЙ
+        <p className="text-center text-muted-foreground font-body text-xs uppercase tracking-[0.2em] mt-8">
+          Больше фотографий появится скоро
         </p>
-
       </div>
     </section>
   );
