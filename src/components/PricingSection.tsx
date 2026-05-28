@@ -16,7 +16,7 @@ const PricingSection = () => {
           <div className="border border-border p-8 text-center group hover:border-primary/50 transition-colors duration-300">
             <CalendarDays className="w-6 h-6 text-primary mx-auto mb-4" />
             <p className="font-body text-xs uppercase tracking-[0.2em] text-muted-foreground mb-2">Будние дни</p>
-            <p className="font-display text-5xl font-light text-foreground mb-1">1 400 ₽</p>
+            <p className="font-display text-5xl font-light text-foreground mb-1">1 800 ₽</p>
             <p className="font-body text-xs text-muted-foreground">за 1 час</p>
           </div>
 
@@ -24,7 +24,7 @@ const PricingSection = () => {
           <div className="border border-border p-8 text-center group hover:border-primary/50 transition-colors duration-300">
             <Sparkles className="w-6 h-6 text-primary mx-auto mb-4" />
             <p className="font-body text-xs uppercase tracking-[0.2em] text-muted-foreground mb-2">Выходные и праздники</p>
-            <p className="font-display text-5xl font-light text-foreground mb-1">1 600 ₽</p>
+            <p className="font-display text-5xl font-light text-foreground mb-1">2 000 ₽</p>
             <p className="font-body text-xs text-muted-foreground">за 1 час</p>
           </div>
         </div>
