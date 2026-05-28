@@ -1,16 +1,20 @@
 import aboutImage from "@/assets/studio-1.jpg";
+import BackgroundMedia from "./BackgroundMedia";
 
 const AboutSection = () => {
   return (
     <section id="about" className="py-24 px-4">
       <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
-        <div className="overflow-hidden">
-          <img
-            src={aboutImage}
+        <div className="overflow-hidden h-[500px]">
+          <BackgroundMedia
+            image={aboutImage}
+            videoMp4="/videos/about.mp4"
+            videoWebm="/videos/about.webm"
             alt="Фотограф в студии Культура"
-            className="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-700" />
-          
+            className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+          />
         </div>
+
 
         <div>
           <p className="font-body text-xs uppercase tracking-[0.3em] text-primary mb-4">О студии</p>

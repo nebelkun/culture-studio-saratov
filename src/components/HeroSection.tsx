@@ -1,11 +1,14 @@
 import heroImage from "@/assets/hero.jpg";
+import BackgroundMedia from "./BackgroundMedia";
 
 const HeroSection = () => {
   return (
     <section className="relative h-screen w-full overflow-hidden">
       <div className="absolute inset-0">
-        <img
-          src={heroImage}
+        <BackgroundMedia
+          image={heroImage}
+          videoMp4="/videos/hero.mp4"
+          videoWebm="/videos/hero.webm"
           alt="Фотостудия Культура — атмосферные локации для съёмки"
           className="w-full h-full object-cover"
         />
