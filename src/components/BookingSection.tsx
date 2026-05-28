@@ -15,24 +15,7 @@ const BookingSection = () => {
     }
   }, []);
 
-  return;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  return null;
 };
 
 export default BookingSection;
