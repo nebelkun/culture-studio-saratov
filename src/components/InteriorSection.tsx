@@ -1,7 +1,7 @@
-import studio1 from "@/assets/studio-1.jpg";
-import studio2 from "@/assets/studio-2.jpg";
+import location1 from "@/assets/location-1.jpg";
+import location2 from "@/assets/location-2.jpg";
 
-const images = [studio1, studio2];
+const images = [location1, location2];
 
 const InteriorSection = () => {
   return (
