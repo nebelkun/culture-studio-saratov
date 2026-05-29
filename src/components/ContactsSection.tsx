@@ -41,13 +41,9 @@ const ContactsSection = () => {
         </div>
 
         <div className="mt-12 rounded-lg overflow-hidden">
-          <a href="https://yandex.ru/maps/?um=constructor%3A3e1dc4f1df3bc517c72333173b99ba66505733cb8ad5f12b05ea1dd6134a55d4&source=constructorStatic" target="_blank" rel="noopener noreferrer">
-            <img
-              src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A3e1dc4f1df3bc517c72333173b99ba66505733cb8ad5f12b05ea1dd6134a55d4&width=480&height=450&lang=ru_RU"
-              alt="Карта"
-              className="w-full rounded-lg border-0"
-            />
-          </a>
+          <div dangerouslySetInnerHTML={{
+            __html: `<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3e1dc4f1df3bc517c72333173b99ba66505733cb8ad5f12b05ea1dd6134a55d4&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>`
+          }} />
         </div>
       </div>
     </section>
