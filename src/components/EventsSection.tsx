@@ -20,7 +20,7 @@ const EventsSection = () => {
           alt="Мероприятия в студии Культура"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-background/85" />
+        <div className="absolute inset-0 bg-background/50" />
       </div>
 
       <div className="container mx-auto relative z-10">
